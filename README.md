@@ -66,7 +66,7 @@ see it:
    **Admin → Custom definitions** first if it doesn't appear in the picker)
 3. Add **Event count** as the metric, filtered to event name = `click`
 4. This produces a table of every destination URL clicked and how many
-   times — including each individual bit.ly / stickylife.com link, so you
+   times — including each individual purebuttons.com / stickylife.com link, so you
    get a per-design breakdown
 
 **To see visitor location:** already built in, no setup needed — go to
