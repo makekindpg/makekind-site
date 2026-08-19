@@ -315,20 +315,6 @@ p { margin: 0 0 1em; color: var(--ink-soft); }
   transform: rotate(var(--tilt));
 }
 
-.pin-badge--pinned::before {
-  content: "";
-  position: absolute;
-  top: -13px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 26px;
-  height: 16px;
-  border-radius: 4px 4px 0 0;
-  background: linear-gradient(180deg, #cfcfcf, #8a8a8a);
-  box-shadow: 0 1px 2px rgba(0,0,0,0.35);
-  z-index: 2;
-}
-
 .pin-badge--pinned:hover {
   transform: rotate(0deg) translateY(-6px) scale(1.04);
   box-shadow:
