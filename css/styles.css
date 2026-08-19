@@ -549,6 +549,7 @@ section { padding: 64px 0; position: relative; z-index: 1; }
   margin-top: 30px;
 }
 .order-card {
+  scroll-margin-top: 90px;
   background: var(--cream);
   border-radius: var(--radius-md);
   padding: 24px 18px 22px;
