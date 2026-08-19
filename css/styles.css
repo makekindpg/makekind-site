@@ -604,12 +604,15 @@ section { padding: 64px 0; position: relative; z-index: 1; }
   color: var(--denim-deep);
   margin-top: 22px;
 }
-.coupon-note code {
+.coupon-note code,
+.code-pill {
   background: var(--mustard);
   color: var(--denim-deep);
   padding: 2px 8px;
   border-radius: 6px;
   font-family: var(--font-label);
+  font-weight: 700;
+  white-space: nowrap;
 }
 
 .steps-list {
