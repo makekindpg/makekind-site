@@ -372,6 +372,29 @@ section { padding: 64px 0; position: relative; z-index: 1; }
   margin-top: 24px;
 }
 
+.story-more summary {
+  cursor: pointer;
+  font-family: var(--font-label);
+  font-weight: 700;
+  font-size: 13.5px;
+  color: var(--brick-deep);
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 2px;
+}
+.story-more summary:hover { text-decoration: underline; }
+.story-more summary::-webkit-details-marker { display: none; }
+.story-more summary::after {
+  content: "▾";
+  font-size: 10px;
+  transition: transform 0.15s ease;
+}
+.story-more[open] summary::after { transform: rotate(180deg); }
+.story-more[open] summary { margin-bottom: 16px; }
+.story-more-body p { margin-bottom: 1em; }
+
 .two-col {
   display: grid;
   grid-template-columns: 1fr 1fr;
